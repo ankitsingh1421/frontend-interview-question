@@ -1,0 +1,78 @@
+.container {
+  position: relative;
+  width: 100%;
+  text-align: left;
+}
+
+.container > input {
+  width: 100%;
+  min-height: 60px;
+  padding: 0 20px;
+  border: 1px solid #d8cbc0;
+  border-radius: 14px;
+  outline: none;
+  background: #fffefa;
+  color: #30221c;
+  font: inherit;
+  font-size: 0.98rem;
+  box-shadow: 0 7px 18px rgba(87, 61, 42, 0.06);
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.container > input::placeholder {
+  color: #aa9c91;
+}
+
+.container > input:focus {
+  border-color: #d27447;
+  box-shadow: 0 0 0 4px rgba(210, 116, 71, 0.14), 0 9px 22px rgba(87, 61, 42, 0.08);
+}
+
+.loading,
+.error {
+  padding: 15px 18px;
+  color: #75685e;
+  font-size: 0.88rem;
+}
+
+.error {
+  color: #b34f45;
+}
+
+.suggestions-list {
+  position: absolute;
+  top: calc(100% + 9px);
+  width: 100%;
+  overflow-y: auto;
+  max-height: 260px;
+  margin: 0;
+  padding: 7px;
+  border: 1px solid rgba(101, 76, 57, 0.14);
+  border-radius: 16px;
+  background: #fffefa;
+  box-shadow: 0 18px 35px rgba(80, 55, 38, 0.16);
+  z-index: 10;
+  list-style: none;
+}
+
+.suggestion-item {
+  padding: 13px 14px;
+  border-radius: 10px;
+  color: #45362c;
+  cursor: pointer;
+  font-size: 0.92rem;
+  line-height: 1.35;
+  transition: background-color 150ms ease, color 150ms ease, transform 150ms ease;
+}
+
+.suggestion-item:hover,
+.suggestion-item[aria-selected="true"] {
+  background-color: #f8e9dc;
+  color: #a44d29;
+  transform: translateX(2px);
+}
+
+.suggestion-item b {
+  color: #c36135;
+  font-weight: 800;
+}
