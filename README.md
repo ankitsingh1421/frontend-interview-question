@@ -99,10 +99,10 @@ frontend-interview-question/
 
 This challenge is about consistency, practical implementation, and becoming interview-ready by building something every day.
 
-One Question. One Project. Every Day. 💻🔥
-🤝 Connect With Me
-GitHub: https://github.com/ankitsingh1421
-LinkedIn: https://www.linkedin.com/in/ankitsingh1421/
+One Question. One Project. Every Day.  
+💻🔥🤝 Connect With Me :  
+GitHub: https://github.com/ankitsingh1421  
+LinkedIn: https://www.linkedin.com/in/ankitsingh1421/  
 Portfolio: https://ankitsingh-dev.vercel.app/
 
 ⭐ If you find this repository helpful, consider giving it a star!
